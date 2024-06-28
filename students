@@ -1,0 +1,7 @@
+CREATE DATABASE student_db;
+USE student_db;
+CREATE TABLE students (
+    id VARCHAR(50) PRIMARY KEY,
+    name VARCHAR(100),
+    mobile VARCHAR(15)
+);
